@@ -1,0 +1,42 @@
+[
+  {
+    "country": "Turkey",
+    "cities": ["Istanbul", "Ankara", "Izmir", "Antalya", "Cappadocia", "Bursa", "Trabzon", "Gaziantep", "Konya", "Mardin"]
+  },
+  {
+    "country": "USA",
+    "cities": ["New York", "Los Angeles", "Chicago", "San Francisco", "Miami", "Las Vegas", "Seattle", "Boston", "Houston", "Washington D.C."]
+  },
+  {
+    "country": "France",
+    "cities": ["Paris", "Lyon", "Nice", "Marseille", "Toulouse", "Strasbourg", "Bordeaux", "Lille", "Cannes", "Avignon"]
+  },
+  {
+    "country": "Italy",
+    "cities": ["Rome", "Venice", "Florence", "Milan", "Naples", "Turin", "Bologna", "Verona", "Genoa", "Pisa"]
+  },
+  {
+    "country": "Japan",
+    "cities": ["Tokyo", "Kyoto", "Osaka", "Hiroshima", "Nara", "Sapporo", "Fukuoka", "Kobe", "Yokohama", "Nagoya"]
+  },
+  {
+    "country": "Brazil",
+    "cities": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre"]
+  },
+  {
+    "country": "United Kingdom",
+    "cities": ["London", "Manchester", "Birmingham", "Liverpool", "Bristol", "Leeds", "Edinburgh", "Glasgow", "Oxford", "Cambridge"]
+  },
+  {
+    "country": "Germany",
+    "cities": ["Berlin", "Munich", "Frankfurt", "Hamburg", "Cologne", "Stuttgart", "Düsseldorf", "Leipzig", "Nuremberg", "Dresden"]
+  },
+  {
+    "country": "Australia",
+    "cities": ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Canberra", "Hobart", "Darwin", "Gold Coast", "Cairns"]
+  },
+  {
+    "country": "Canada",
+    "cities": ["Toronto", "Vancouver", "Montreal", "Calgary", "Ottawa", "Quebec City", "Edmonton", "Winnipeg", "Halifax", "Victoria"]
+  }
+]

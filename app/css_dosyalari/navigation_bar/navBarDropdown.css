@@ -1,0 +1,37 @@
+.about-dropdown {
+  position: relative;
+}
+
+/* Menü kutusu başlangıçta gizli */
+.about-dropdown-menu {
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px); /* hafif aşağı boşluk */
+  left: 0;
+  background-color: #ffffff;
+  padding: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  min-width: 180px;
+}
+
+/* Hover olunca görünür */
+.about-dropdown:hover .about-dropdown-menu {
+  display: block;
+}
+
+/* Menü öğeleri */
+.about-dropdown-menu li {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #0c3a7f;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.about-dropdown-menu li:hover {
+  background-color: #f3f4f6;
+}

@@ -1,0 +1,15 @@
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 5000px;  /* Header'ın max genişliği ile aynı yap */
+  margin: 0 auto;     /* Ortalamak için */
+  overflow: hidden;
+}
+
+.featured-img {
+  width: 100%;        /* Wrapper genişliğini kapla */
+  height: 450px;
+  filter: blur(5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}

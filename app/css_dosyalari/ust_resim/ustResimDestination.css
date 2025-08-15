@@ -1,0 +1,33 @@
+.autocomplete-dropdown {
+  position: absolute;
+  background-color: white;
+  color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  width: 150px;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 10;
+  border-radius: 6px;
+  margin-top: 2px;
+  max-height: 180px; /* Bu kadar yükseklikten sonra scroll */
+  overflow-y: auto;  /* Dikey scroll aç */
+  z-index: 10;
+  border-radius: 6px;
+  margin-top: 2px;
+   max-height: 50vh;
+}
+
+.autocomplete-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left; /* ⭐ sola hizalama */
+}
+
+
+.autocomplete-item:hover {
+  background-color: #f3f4f6;
+}

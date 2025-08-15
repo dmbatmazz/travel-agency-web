@@ -1,0 +1,97 @@
+.unified-search-bar {
+  width: 640px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; /* wrap değil artık */
+  margin-top: 20px;
+  border-radius: 9999px;
+  overflow: visible; /* dropdown görünür olsun */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: white;
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+  z-index: 2;
+}
+
+/* Ortak stil */
+.search-destination,
+.search-date,
+.search-button {
+  height: 48px;
+  font-size: 15px;
+  padding: 0 16px;
+  border: none;
+  outline: none;
+  font-family: system-ui, sans-serif;
+}
+
+/* Autocomplete alanı */
+.autocomplete-wrapper {
+  position: relative;
+}
+
+/* Autocomplete menüsü */
+.autocomplete-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-height: 180px;
+  overflow-y: auto;
+  margin-top: 4px;
+  list-style: none;
+  padding: 0;
+}
+
+.autocomplete-item {
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.autocomplete-item:hover {
+  background-color: #f3f4f6;
+}
+
+/* Inputlar */
+.search-destination,
+.search-date {
+  width: 170px;
+  border-right: 1px solid #ddd;
+}
+
+/* İlk input sol radius */
+.search-destination {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  padding-left: 20px;
+}
+
+/* Buton */
+.search-button {
+  background-color: #0c3a7f;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  width: 130px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #04275b;
+}
+
+.search-date::-webkit-calendar-picker-indicator {
+  filter: invert(0.5);
+  cursor: pointer;
+}
